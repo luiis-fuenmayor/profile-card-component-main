@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue:hsl(227, 10%, 46%);
+    --Dark-gray:hsl(0, 0%, 59%);
+    --withe: #ffff;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: 
+      url(images/bg-pattern-top.svg), 
+      url(images/bg-pattern-bottom.svg);
+      background-position: right 50vw bottom 60vh, left 47vw top 50vh;
+      background-repeat: no-repeat, no-repeat;   
+    height: 100vh;
+    margin: auto;
+    overflow: hidden;
+    background-color:var(--Dark-cyan);
+    width: 375px;
+    height: 667px;
+}
+.container{
+    margin-top: 150px;
+    background-color: var(--withe);
+    width: 327px;
+    height: 377px;
+    position: relative;
+    border-radius: .6em;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif
+}
+.card-images{
+    height: 140px;
+    width: 327px;
+    border-start-start-radius: .6em;
+    border-start-end-radius: .6em;
+}
+.profile{
+    position: absolute;
+    left: 108px;
+    top: 85px;
+    border-radius: 100%;
+    border: 6px solid var(--withe);
+}
+.name{
+    margin-top: 4.1em;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: var(--Very-dark-desaturated-blue);
+    margin-right: 1em;
+    font-size: 18px;
+    font-weight: 700;
+}
+.name p{
+    font-size: 18px;
+    padding-top: 0em;
+    font-weight: 400;
+    color:var(--Dark-gray);
+
+}
+.bot b{
+    font-size: 18px;
+    color: var(--Very-dark-desaturated-blue);
+
+}
+.bot p{
+    font-size: 10px;
+    color:var(--Dark-gray);
+    font-weight: 400;
+    letter-spacing: .25em;
+    margin-top: .3em;
+}
+
+#london{
+    margin-bottom:1.65em;
+    margin-top: .6em;
+    font-size: 14px;
+    color:var(--Dark-gray);
+
+}
+hr{
+    opacity: .3;
+    height: 1px;
+    background-color: var(--Dark-cyan);
+}
+
+.bot{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 1.4em;
+}
+
+.attribution{
+    display: none;
+}
